@@ -17,11 +17,15 @@ function Recipe() {
         <Preloader />
       ) : (
         <div className="recipe">
-          <img src={recipe.strMealThumb} alt={recipe.strMeal} />
-          <h1>{recipe.strMeal}</h1>
-          <h4>Category: {recipe.strCategory}</h4>
+          <div style={{ margin: "0 auto", maxWidth: "450px" }}>
+            <img src={recipe.strMealThumb} alt={recipe.strMeal} />
+          </div>
+          <h1 style={{ textAlign: "center" }}>{recipe.strMeal}</h1>
+          <h4 style={{ textAlign: "center" }}>
+            Category: {recipe.strCategory}
+          </h4>
           {recipe.strArea ? <h6>Area: {recipe.strArea} </h6> : null}
-          <p>{recipe.strInstructions}</p>
+          <p style={{ marginTop: "50px" }}>{recipe.strInstructions}</p>
 
           <table className="centered">
             <thead>
@@ -46,8 +50,11 @@ function Recipe() {
           </table>
 
           {recipe.strYoutube ? (
-            <div className="row">
-              <h5 style={{ margin: "2rem 0 1.5rem" }}>Video Recipe</h5>
+            <div
+              className="row"
+              style={{ margin: "0 auto", maxWidth: "450px" }}
+            >
+              <h5 style={{ margin: "2rem 0 1.5rem" }}>Video Recipe:</h5>
               <iframe
                 title={id}
                 src={`https://www.youtube.com/embed/${recipe.strYoutube.slice(
