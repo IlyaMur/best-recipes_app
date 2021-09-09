@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/best-recipes_app/static/css/main.8f3f4542.chunk.css",
+    "main.js": "/best-recipes_app/static/js/main.1370dde2.chunk.js",
+    "main.js.map": "/best-recipes_app/static/js/main.1370dde2.chunk.js.map",
+    "runtime-main.js": "/best-recipes_app/static/js/runtime-main.b245b3ae.js",
+    "runtime-main.js.map": "/best-recipes_app/static/js/runtime-main.b245b3ae.js.map",
+    "static/js/2.fcc6af5f.chunk.js": "/best-recipes_app/static/js/2.fcc6af5f.chunk.js",
+    "static/js/2.fcc6af5f.chunk.js.map": "/best-recipes_app/static/js/2.fcc6af5f.chunk.js.map",
+    "index.html": "/best-recipes_app/index.html",
+    "static/css/main.8f3f4542.chunk.css.map": "/best-recipes_app/static/css/main.8f3f4542.chunk.css.map",
+    "static/js/2.fcc6af5f.chunk.js.LICENSE.txt": "/best-recipes_app/static/js/2.fcc6af5f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b245b3ae.js",
+    "static/js/2.fcc6af5f.chunk.js",
+    "static/css/main.8f3f4542.chunk.css",
+    "static/js/main.1370dde2.chunk.js"
+  ]
+}
