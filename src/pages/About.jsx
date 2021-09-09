@@ -1,5 +1,5 @@
 function About() {
-  return <h1>Hello, from About page</h1>;
+  return <h1>React Recipes project made by Ilya Muratov</h1>;
 }
 
 export { About };

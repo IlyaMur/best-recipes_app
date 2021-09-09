@@ -1,5 +1,5 @@
 function Contact() {
-  return <h1>Hello, from Contact page</h1>;
+  return <h3>Author: https://github.com/IlyaMur/</h3>;
 }
 
 export { Contact };

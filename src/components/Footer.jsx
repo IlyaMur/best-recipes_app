@@ -6,7 +6,7 @@ function Footer() {
           © {new Date().getFullYear()} Copyright Text
           <a
             className="grey-text text-lighten-4 right"
-            href="https://github.com/IlyaMur/react_shop"
+            href="https://github.com/IlyaMur/best-recipes_app"
             target="_blank"
             rel="noreferrer"
           >

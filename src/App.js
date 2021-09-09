@@ -11,7 +11,7 @@ import { Recipe } from "./pages/Recipe";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/best-recipes_app">
         <Header />
         <main className="container content">
           <Switch>
