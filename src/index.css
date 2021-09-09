@@ -16,6 +16,15 @@ nav {
   padding: 0 1rem;
 }
 
+img, iframe {
+  max-width: 100%;
+}
+
+iframe {
+  width: 600px;
+  height: 350px
+}
+
 .content {
   min-height: calc(100vh - 70px - 64px);
   padding: 1.5rem 0;
@@ -35,3 +44,4 @@ nav {
 .card-content {
   flex-grow: 1;
 }
+
